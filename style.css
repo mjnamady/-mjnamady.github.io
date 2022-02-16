@@ -1,0 +1,114 @@
+body {
+	font-family: arial;
+	margin: auto 0;
+	color: #f5f5f6;
+}
+/* NAV */
+
+.nav-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav-elements {
+	display: flex;
+	list-style: none;
+}
+
+.nav-elements li > a {
+	text-decoration: none;
+	color: #f5f5f6;
+	padding: 10px;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 500px){
+	.nav-elements li > a {
+	font-size: 0.7em;
+}
+}
+
+.push {
+	margin-left: auto;
+	padding-right: 20px;
+}
+
+/* BANNER */
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+	background-image: url("imgs/pexels (8).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.banner > img {
+	width: 20rem;
+}
+
+/* WRAPPER */
+
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+
+.box {
+	background-color: #444;
+	padding: 50px;
+}
+
+.box:hover {
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
+.box > img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OVERALL STYLE */
+.zone {
+	padding: 10px;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.red {
+	background-color: red;
+	margin-top: 50px;
+}
+
+.green {
+	background-color: green;
+}
